@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;500&family=Montserrat:wght@300;400;500;600&display=swap");
+.sec_icons .icons .button2, .sec_icons .icons .button4, .sec_icons .icons .button1, .sec_icons .icons .button3 {
+  padding: 0.5rem 0.75rem;
+  margin: 3px 0px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 0.875rem;
+  border-radius: 0.75rem;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-weight: 500;
+  font-size: 100%;
+  font-family: "Montserrat", sans-serif;
+  height: 100vh;
+}
+
+.container {
+  background-color: hsl(120deg, 22%, 5%);
+  width: 70%;
+  margin: 1.5rem auto;
+  border-radius: 0.875rem;
+  color: #fff;
+}
+.container .i_space {
+  margin-right: 0.75rem;
+}
+
+.header {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: #fff;
+  -moz-column-gap: 6rem;
+       column-gap: 6rem;
+  padding: 1rem 4rem;
+  box-shadow: inset 0px 0px 7px 0px rgba(253, 239, 239, 0.8);
+}
+.header h1 {
+  font-size: 1.5rem;
+}
+.header ul {
+  list-style: none;
+  display: flex;
+}
+.header ul a:hover {
+  color: #fa6c6c;
+}
+.header a {
+  text-decoration: none;
+  color: #fff;
+  padding: 0.75rem 1rem;
+}
+.header input[type=text] {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: #324e32;
+  color: hsl(90deg, 23%, 40%);
+  border: none;
+  width: 16rem;
+  outline: none;
+  transition: width 0.4s ease-in-out;
+}
+.header input[type=text]:focus {
+  width: 17.5rem;
+  background-color: #e3dfdf;
+  border: 1px solid rgba(73, 70, 70, 0.8);
+  box-shadow: inset 0px 0px 7px 0px rgba(253, 239, 239, 0.8);
+}
+.header .con {
+  position: relative;
+}
+.header .inner_img {
+  position: absolute;
+  top: 2px;
+  right: 0.5rem;
+  width: 1.5625rem;
+  height: 1.5625rem;
+}
+
+.sec_icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 3rem 3rem 1.5rem;
+  margin: 0px auto;
+  font-family: "Kanit", sans-serif;
+}
+.sec_icons .img {
+  width: 3rem;
+  height: 3rem;
+}
+.sec_icons p {
+  font-size: 0.75rem;
+  font-weight: 400;
+  padding: 0.875rem 0rem;
+  text-align: center;
+}
+.sec_icons .mid_query {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sec_icons .icons {
+  display: flex;
+  flex-direction: column;
+  padding: 0.75rem;
+  align-items: center;
+  justify-content: center;
+}
+.sec_icons .icons .button1, .sec_icons .icons .button3 {
+  background-color: #e3dfdf;
+}
+.sec_icons .icons .button1 a, .sec_icons .icons .button3 a {
+  text-decoration: none;
+  color: #fa6c6c;
+  color: rgb(51, 141, 182);
+}
+.sec_icons .icons .button2, .sec_icons .icons .button4 {
+  background-color: #fa6c6c;
+}
+.sec_icons .icons .button2 a, .sec_icons .icons .button4 a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.sec_txt {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 5rem;
+       column-gap: 5rem;
+  padding: 1rem;
+  z-index: 1;
+  width: 86%;
+  margin: 3rem auto;
+  border-radius: 0.75rem;
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.2);
+  background-color: rgba(73, 70, 70, 0.8);
+}
+.sec_txt .txt_list {
+  font-size: 0.875rem;
+  font-weight: 400;
+  font-family: "Kanit", sans-serif;
+}
+.sec_txt .ls1 {
+  align-self: flex-start;
+}
+.sec_txt ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+.sec_txt a {
+  text-decoration: none;
+  display: block;
+  padding: 0.5rem 0.75rem;
+  color: #fff;
+}
+.sec_txt a:hover {
+  color: #e3dfdf;
+}
+
+.sec_bullet ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 1rem 1rem 1rem 3.2rem;
+  background-color: rgba(73, 70, 70, 0.8);
+  border-bottom-left-radius: 0.75rem;
+  border-bottom-right-radius: 0.75rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+.sec_bullet ul a {
+  text-decoration: none;
+  padding: 0.5rem 0.75rem;
+  color: #fff;
+}
+.sec_bullet ul a:hover {
+  color: #e3dfdf;
+}
