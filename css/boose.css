@@ -44,6 +44,7 @@ body {
 }
 .header h1 {
   font-size: 1.5rem;
+  text-align: center;
 }
 .header ul {
   list-style: none;
@@ -65,10 +66,8 @@ body {
   border: none;
   width: 16rem;
   outline: none;
-  transition: width 0.4s ease-in-out;
 }
 .header input[type=text]:focus {
-  width: 17.5rem;
   background-color: #e3dfdf;
   border: 1px solid rgba(73, 70, 70, 0.8);
   box-shadow: inset 0px 0px 7px 0px rgba(253, 239, 239, 0.8);
@@ -188,4 +187,73 @@ body {
 }
 .sec_bullet ul a:hover {
   color: #e3dfdf;
+}
+
+@media screen {
+  .header {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 0.75rem;
+  }
+  .header h1 {
+    padding-bottom: 0.5rem;
+  }
+}
+@media screen and (min-width: 700px) {
+  .header {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    row-gap: 0.75rem;
+    padding: 1rem 4rem;
+  }
+  .header h1 {
+    padding: 0rem;
+  }
+  .con1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -moz-column-gap: 2rem;
+         column-gap: 2rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .header {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    row-gap: 0.75rem;
+    padding: 1rem 1rem;
+  }
+  .header h1 {
+    padding: 0rem;
+  }
+  .header input[type=text] {
+    width: 12rem;
+  }
+  .header input[type=text]:focus {
+    width: 12rem;
+  }
+}
+@media screen and (min-width: 1250px) {
+  .header {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    row-gap: 0.75rem;
+    padding: 1rem 4rem;
+  }
+  .header input[type=text] {
+    width: 16rem;
+  }
+  .header input[type=text]:focus {
+    width: 17.75rem;
+  }
 }
