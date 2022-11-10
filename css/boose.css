@@ -200,14 +200,16 @@ body {
   .header h1 {
     padding-bottom: 0.5rem;
   }
+  .sec_icons {
+    flex-direction: column;
+  }
+  .mid_query {
+    flex-direction: column;
+  }
 }
 @media screen and (min-width: 700px) {
   .header {
-    display: flex;
-    justify-content: start;
-    align-items: center;
     flex-direction: column;
-    color: #fff;
     row-gap: 0.75rem;
     padding: 1rem 4rem;
   }
@@ -220,6 +222,12 @@ body {
     justify-content: center;
     -moz-column-gap: 2rem;
          column-gap: 2rem;
+  }
+  .sec_icons {
+    flex-direction: column;
+  }
+  .mid_query {
+    flex-direction: row;
   }
 }
 @media screen and (min-width: 992px) {
@@ -239,6 +247,12 @@ body {
   }
   .header input[type=text]:focus {
     width: 12rem;
+  }
+  .sec_icons {
+    flex-direction: row;
+  }
+  .mid_query {
+    flex-direction: row;
   }
 }
 @media screen and (min-width: 1250px) {
